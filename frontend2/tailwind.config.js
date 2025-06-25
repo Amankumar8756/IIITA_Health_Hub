@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}", // Important for React files
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'primary':"#06b6d4"
+      },
+      gridTemplateColumns:{
+        'auto' :'repeat(auto-fill, minmax(200px, 1fr)'
+      }
+    },
   },
   plugins: [],
 }
