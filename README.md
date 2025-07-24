@@ -1,6 +1,5 @@
-# IIITA_Health_Hub
-
-# IIITA Health Center Doctor Appointment Booking System
+ 
+#  IIITA_Health_Hub Doctor Appointment Booking System
 
 A full-stack web application built with the MERN stack to streamline doctor appointment scheduling for the Indian Institute of Information Technology Allahabad (IIITA) Health Center. Students can register, log in, book and manage appointments with on-campus doctors, while admins and doctors oversee schedules, patient data, and health center operations.
 
@@ -51,7 +50,7 @@ This project provides a scalable and secure platform for managing doctor appoint
 
 ## Progress
 
-### Day 1: Project Setup and Frontend Foundation
+### -> Project Setup and Frontend Foundation
 
 - Initialized a MERN stack project with `create-react-app` and a Node.js backend.
 - Set up a Git repository for version control.
@@ -60,7 +59,7 @@ This project provides a scalable and secure platform for managing doctor appoint
 - Implemented authentication state management with `useState` and React Context.
 - Developed UI components (`Header`, specialty menu, footer) with CSS, enabling doctor data display and specialty filtering.
 
-### Day 2: Frontend Page Enhancements and Booking UI
+### -> Frontend Page Enhancements and Booking UI
 
 - Created `Doctor Appointment`, `About`, `Contact`, `Login`, and `Patient Profile` pages.
 - Built a booking interface with slot selection, date/time handling, and currency symbols.
@@ -68,7 +67,7 @@ This project provides a scalable and secure platform for managing doctor appoint
 - Designed responsive forms for login and profile editing, styled with Tailwind CSS.
 - Structured `About` and `Contact` pages with enhanced layouts.
 
-### Day 3: Backend Setup and Database Integration
+### -> Backend Setup and Database Integration
 
 - Installed backend dependencies: `express`, `mongoose`, `multer`, `bcrypt`, `cloudinary`, `cors`, `dotenv`, `jsonwebtoken`, `nodemon`, `validator`.
 - Set up an Express.js server with MongoDB Atlas connectivity.
@@ -77,7 +76,7 @@ This project provides a scalable and secure platform for managing doctor appoint
 - Enhanced frontend responsiveness with a mobile menu and filter toggles.
 - Secured admin login with JWT tokens and `bcrypt` password hashing.
 
-### Day 4: Admin Panel and Doctor Management
+### -> Admin Panel and Doctor Management
 
 - Installed frontend dependencies: `axios`, `react-router-dom`, `react-toastify`, `tailwindcss`.
 - Built an admin panel with a dashboard, sidebar, and routes for navigation.
@@ -85,7 +84,7 @@ This project provides a scalable and secure platform for managing doctor appoint
 - Created an `Add Doctor` form with image uploads, integrated with backend APIs.
 - Displayed a doctor list in the admin panel, styled with Tailwind CSS.
 
-### Day 5: Doctor Data Display and Patient Authentication
+### -> Doctor Data Display and Patient Authentication
 
 - Fetched and displayed doctor data on the frontend using `axios`.
 - Implemented patient login/registration with JWT tokens, `bcrypt` hashing, and `validator` checks.
@@ -93,21 +92,21 @@ This project provides a scalable and secure platform for managing doctor appoint
 - Enhanced patient profile management with image uploads and secure updates.
 - Configured `react-toastify` for error notifications.
 
-### Day 6: Appointment Booking and Cancellation
+### -> Appointment Booking and Cancellation
 
 - Updated patient profiles with optional image uploads using `multer` and `cloudinary`.
 - Created an `Appointment` model and APIs for booking, saving data to MongoDB.
 - Displayed booked appointments with formatted dates and statuses.
 - Implemented appointment cancellation, updating doctor slots and showing cancellation history.
 
-### Day 7: Payment Integration and Admin Dashboard
+### -> Payment Integration and Admin Dashboard
 
 - Installed `razorpay` for online payment processing.
 - Integrated Razorpay with secure key storage in `.env`, enabling payment for appointments.
 - Enhanced the admin panel to manage appointments, including cancellation and patient details.
 - Built a comprehensive admin dashboard with metrics and recent appointments, styled with Tailwind CSS.
 
-### Day 8: Doctor Panel and Appointment Management
+### -> Doctor Panel and Appointment Management
 
 - Created a doctor panel with a dashboard for appointments and profile management.
 - Implemented doctor authentication with JWT tokens and login/logout functionality.
